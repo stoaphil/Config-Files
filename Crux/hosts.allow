@@ -1,0 +1,9 @@
+#
+# /etc/hosts.allow
+#
+
+# <service>: <ip>
+# added 4.28.14
+cups: 127.0.0.1
+
+# End of file
