@@ -1,0 +1,109 @@
+[Highlighting Asm6502 - Schema Normal]
+Asm6502:Comment=21,ffaaaaff,ff5e5d5d,,,,,,,,---
+Asm6502:Data Type=16,,,,,,,,,,---
+Asm6502:Decimal=17,,,,,,,,,,---
+Asm6502:Hex=18,,,,,,,,,,---
+Asm6502:Keyword=1,ff000000,ffffffff,1,,,,,,,---
+Asm6502:Normal Text=0,,,,,,,,,,---
+Asm6502:Operator=5,,,,,,,,,,---
+Asm6502:Preprocessor=8,,,,,,,,,,---
+Asm6502:String=12,,,,,,,,,,---
+Asm6502:Substitution=29,,,,,,,,,,---
+
+[Highlighting GNU Assembler - Schema Normal]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,,,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,,,,,,,,,,---
+GNU Assembler:Binary=18,,,,,,,,,,---
+GNU Assembler:Char=10,,,,,,,,,,---
+GNU Assembler:Comment=21,ff55007f,ff5e5d5d,0,,,,,,,---
+GNU Assembler:Decimal=17,,,,,,,,,,---
+GNU Assembler:Float=19,,,,,,,,,,---
+GNU Assembler:Hex=18,,,,,,,,,,---
+GNU Assembler:Keyword=1,ffff5500,ffffffff,1,,,,,,,---
+GNU Assembler:Label=1,ff00aa00,ffffffff,1,,,,,,,---
+GNU Assembler:Normal Text=0,,,,,,,,,,---
+GNU Assembler:Octal=18,,,,,,,,,,---
+GNU Assembler:Preprocessor=8,,,,,,,,,,---
+GNU Assembler:String=12,,,,,,,,,,---
+GNU Assembler:String Char=11,,,,,,,,,,---
+GNU Assembler:Symbol=0,ff000000,ffffffff,,,,,,,,---
+
+[Highlighting GNU Assembler - Schema Printing]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,,,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,,,,,,,,,,---
+GNU Assembler:Binary=18,,,,,,,,,,---
+GNU Assembler:Char=10,,,,,,,,,,---
+GNU Assembler:Comment=21,ff78c7c8,ff5e5d5d,,,,,,,,---
+GNU Assembler:Decimal=17,,,,,,,,,,---
+GNU Assembler:Float=19,,,,,,,,,,---
+GNU Assembler:Hex=18,,,,,,,,,,---
+GNU Assembler:Keyword=1,ff000000,ffffffff,1,,,,,,,---
+GNU Assembler:Label=1,ff000000,ffffffff,1,,,,,,,---
+GNU Assembler:Normal Text=0,,,,,,,,,,---
+GNU Assembler:Octal=18,,,,,,,,,,---
+GNU Assembler:Preprocessor=8,,,,,,,,,,---
+GNU Assembler:String=12,,,,,,,,,,---
+GNU Assembler:String Char=11,,,,,,,,,,---
+GNU Assembler:Symbol=0,ff000000,ffffffff,,,,,,,,---
+
+[Highlighting GNU Assembler - Schema Vim (dark)]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,,,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,,,,,,,,,,---
+GNU Assembler:Binary=18,,,,,,,,,,---
+GNU Assembler:Char=10,,,,,,,,,,---
+GNU Assembler:Comment=21,ff7e7e7e,ff5e5d5d,1,,,,,,,---
+GNU Assembler:Decimal=17,,,,,,,,,,---
+GNU Assembler:Float=19,,,,,,,,,,---
+GNU Assembler:Hex=18,,,,,,,,,,---
+GNU Assembler:Keyword=1,ff55ffff,ffffffff,1,,,,,,,---
+GNU Assembler:Label=1,ffffff00,ffffffff,1,,,,,,,---
+GNU Assembler:Normal Text=0,ffffffff,ffb2b2b2,1,,,,,,,---
+GNU Assembler:Octal=18,,,,,,,,,,---
+GNU Assembler:Preprocessor=8,,,,,,,,,,---
+GNU Assembler:String=12,,,,,,,,,,---
+GNU Assembler:String Char=11,,,,,,,,,,---
+GNU Assembler:Symbol=0,ffff0000,ffffffff,1,,,,,,,---
+
+[Highlighting Intel x86 (FASM) - Schema Normal]
+Intel x86 (FASM):BaseN=18,,,,,,,,,,---
+Intel x86 (FASM):Char=10,,,,,,,,,,---
+Intel x86 (FASM):Comment=21,,,,,,,,,,---
+Intel x86 (FASM):Data=16,,,,,,,,,,---
+Intel x86 (FASM):Float=19,,,,,,,,,,---
+Intel x86 (FASM):Instructions=6,,,,,,,,,,---
+Intel x86 (FASM):Label=2,,,,,,,,,,---
+Intel x86 (FASM):Normal Text=0,,,,,,,,,,---
+Intel x86 (FASM):Number=17,,,,,,,,,,---
+Intel x86 (FASM):Preprocessor=8,,,,,,,,,,---
+Intel x86 (FASM):Registers=1,,,,,,,,,,---
+Intel x86 (FASM):String=12,,,,,,,,,,---
+
+[Highlighting Intel x86 (NASM) - Schema Normal]
+Intel x86 (NASM):BaseN=18,,,,,,,,,,---
+Intel x86 (NASM):Char=10,,,,,,,,,,---
+Intel x86 (NASM):Comment=21,ffaa55ff,ff5e5d5d,,,,,,,,---
+Intel x86 (NASM):Data=16,,,,,,,,,,---
+Intel x86 (NASM):Float=19,,,,,,,,,,---
+Intel x86 (NASM):Instructions=1,,,,,,,,,,---
+Intel x86 (NASM):Label=2,,,,,,,,,,---
+Intel x86 (NASM):NASM Keywords=1,,,,,,,,,,---
+Intel x86 (NASM):Normal Text=0,,,,,,,,,,---
+Intel x86 (NASM):Number=17,,,,,,,,,,---
+Intel x86 (NASM):Preprocessor=29,,,,,,,,,,---
+Intel x86 (NASM):Registers=1,,,,,,,,,,---
+Intel x86 (NASM):String=12,,,,,,,,,,---
+
+[Highlighting None - Schema Normal]
+Normal Text=0,,,,,,,,,,---
+
+[Highlighting None - Schema Vim (dark)]
+Normal Text=0,ffffffff,ffb2b2b2,1,,,,,,,---

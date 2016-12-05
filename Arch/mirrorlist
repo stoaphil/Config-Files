@@ -1,0 +1,12 @@
+##
+## Arch Linux repository mirrorlist
+## Sorted by mirror score from mirror status page
+## Generated on 2015-09-01
+##
+
+## Score: 0.3, United States
+Server = http://arch.localmsp.org/arch/$repo/os/$arch
+Server = https://arch.localmsp.org/arch/$repo/os/$arch
+Server = http://lug.mtu.edu/archlinux/$repo/os/$arch
+Server = http://mirror.us.leaseweb.net/archlinux/$repo/os/$arch
+Server = http://mirrors.acm.wpi.edu/archlinux/$repo/os/$arch

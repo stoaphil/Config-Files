@@ -1,0 +1,37 @@
+[FileDialogSize]
+Height 1080=480
+Width 1920=640
+
+[General Options]
+ShowMenuBar=true
+ShowPath=false
+ShowStatusBar=true
+
+[KFileDialog Settings]
+Recent Files[$e]=mutt-archlinux-1000-2050-21251854832053952098,file:$HOME/bin/Kerrisk/8.2.c,file:///usr/share/man/man1/ar.1.gz,file:$HOME/bin/c.notes,file:$HOME/.xinitrc,file:$HOME/.xinitrc.awesome
+Recent URLs[$e]=file:///tmp/,file:///mnt/flash/,file:$HOME/bin/,file:///usr/share/man/man1/,file:$HOME/bin/Kerrisk/
+
+[KTextEditor::Search]
+Search History=format
+
+[MainWindow]
+Height 1024=976
+Height 1080=853
+Height 900=458
+State=AAAA/wAAAAD9AAAAAAAABKsAAALrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1276
+Width 1440=640
+Width 1920=1531
+Window-Maximized 1080x1920=true
+Window-Maximized 900x1440=true
+
+[Recent Files]
+File1[$e]=$HOME/.xinitrc.awesome
+File2[$e]=$HOME/bin/c.notes
+File3[$e]=man:/usr/share/man/man1/ls.1p.gz
+File4[$e]=$HOME/bin/Kerrisk/8.2.c
+Name1[$e]=.xinitrc.awesome
+Name2[$e]=c.notes
+Name3[$e]=ls.1p.gz
+Name4[$e]=8.2.c

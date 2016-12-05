@@ -1,0 +1,9 @@
+# /dev/sda3 UUID=336cdd51-3f7f-4d10-a6f7-08651b9b55e8
+/dev/sda3           	/         	ext4      	rw,relatime,data=ordered	0 	1
+
+# /dev/sda2 UUID=258f14fc-16b2-495f-a68a-6ceab2e14818
+/dev/sda2           	none      	swap      	defaults  			0 	0
+
+# flash drive mounting by user
+/dev/sdb1		/mnt/flash	auto		user,noauto,rw			1	1
+
