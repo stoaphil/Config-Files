@@ -1,0 +1,5 @@
+if [ -x /usr/local/sbin/cupsd ]; then
+echo "Starting cupsd..."
+/usr/local/sbin/cupsd 
+fi
+

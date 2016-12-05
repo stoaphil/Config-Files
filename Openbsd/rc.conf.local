@@ -1,0 +1,7 @@
+ntpd_flags=
+#
+#####   MINE   #####
+#
+wsmoused_flags=""   #for console mouse, either USB or PS/2
+lpd_flags=""        #for normal use:""; for debugging, "-l"
+apmd_flags=""       #for sleep with <apmd -z (heavy) -S (light)

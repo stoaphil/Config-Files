@@ -1,0 +1,10 @@
+#####   MINE   #####
+#
+#
+lp:\
+    :lp=:rm=JetDirect:rp=text:\
+    :sh:\
+    :mx#0:\
+    :sd=/var/spool/lpd/lp:\
+    :if=/usr/local/libexec/lf2crlf:\
+    :lf=/var/log/lpd-errs:

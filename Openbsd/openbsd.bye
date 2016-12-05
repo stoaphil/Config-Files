@@ -1,0 +1,40 @@
+The time to decide is here - done everything with OBSD as I can for now, i.e., 
+-current, -stable, and RELEASE.  All seem to work fine, except:
+
+-DMENU script/top load avg. problem (date/time script causes high loads);
+-persistent mouse/touchpad issues (mouse detaches unless wmouse0 is enabled, 
+but on -current if enabled, mouse won't work in X; touchpad won't work in X);
+-only tried once on old P4 box, but upgrade from 5.5 STABLE to 5.6 STABLE 
+borked.
+
+Otherwise, really does work well, and superior in some areas, i.e., 
+automatically d/l and install radeon firmware and properly configure dual-head 
+out of the box, automatically d/l firmware for wireless adapter, and really
+no other problems whatsoever.
+
+Downside, of course, is community; enough said.  Another downside is failing 
+to keep up with not-so-current requirements such as UEFI/secure boot and 
+general aging.  Another downside is documentation; I'm sure the manpages are 
+correct, but there is a shortage of anything else, and, much as they would 
+argue elsewise, the FAQ is not entirely accurate, or at least fails by 
+omission; largest portion of documentation hidden in links on FAQ.  Another 
+downside is that, based upon the foregoing, it would be nearly impossible to 
+contribute.  Funding and who will take over if necessary, a normal 
+consequence of a dictatorship, are notable background issues.
+
+So, choice is FBSD.  Of course, this is not without its own problems.  
+Documentation, although is much more voluminous, is not of a very high 
+quality, i.e., a significant part of it is out-of-date.  The PF version is 
+woefully out of date (but I don't know what patches were made, so...)  Much 
+harder to get dual monitor, but does work.  Many, many more packages; unlike 
+OBSD, though, do not always work out of the box.  Main issue most would say 
+for OBSD is security, but I only run a few non-internet-facing desktops; 
+security beyond a couple of firewalls is not really necessary at this point.  
+Of course, upgrading works without significant issue, most leaf ports are 
+latest versions, no matter the base version of OS.
+
+So, put OBSD on back burner until such time as it is more natural to operate 
+in that environment, i.e., after a thorough grounding in BSDs from FBSD.  
+Its just unreasonable, at this stage, to attempt to get depth of knowledge 
+of an OS without full focus on just one; later, once that is done, further 
+breadth is nore natural.
