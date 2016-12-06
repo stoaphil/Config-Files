@@ -1,0 +1,64 @@
+! $OpenBSD: dot.Xdefaults,v 1.3 2014/07/10 10:22:59 jasper Exp $
+XTerm*loginShell:true
+!
+!!!!!   MINE   !!!!!
+! These comments are from FreeBSD's .Xresources, so may not apply here.
+! Each change needs to be reloaded with
+! <xrdb -merge ~/.Xresources, then restart
+
+! Do not use login shell command, as that
+! is causing (the) problems with lock-up
+! when issuing "reload" alias
+
+xterm*faceName:                 DejaVu Sans Mono Book
+xterm*faceSize:                 10
+! xterm*reverseVideo:             on
+xterm*Background:               black
+xterm*Foreground:               green
+xterm*cursorColor:              orange
+xterm*cursorBlink:              true
+xterm*cursorUnderLine:          true
+xterm*saveLines:                10000
+xterm*scrollBar:                true
+xterm*rightScrollBar:           true
+xterm*termName:                 xterm-256color
+xterm*locale:                   true
+
+
+URxvt*background:           black
+URxvt*foreground:           green
+URxvt*scrollBar_right:      true
+!URxvt*scrollStyle:         rxvt
+!URxvt*scrollstyle:         plain
+URxvt*scrollstyle:          next
+!URxvt*scrollstyle:         xterm
+!URxvt*scrollWithBuffer:     true
+URxvt*thickness:            15
+URxvt*cursorUnderline:      true
+URxvt*cursorBlink:          true
+!URxvt.font:                 xft:bitstream vera sans mono:size=10:antialias=true
+URxvt.font:                 xft:terminus:size=11
+!URxvt.boldFont:             xft:bitstream vera sans mono:size=10:antialias=true
+URxvt.boldFont:             xft:terminus:size=11
+!URxvt*color0:               #000000 // black
+!URxvt*color1:               #B40000 // red
+!URxvt*color2:               #00AA00 // green
+!URxvt*color3:               #AAAA00 // yellow
+!URxvt*color4:               #5555AA // blue
+!URxvt*color5:               #AA00AA // magenta
+!URxvt*color6:               #00AAAA // cyan
+!URxvt*color7:               #AAAAAA // white
+!URxvt*color8:               #555555 // black (now and below: bright)
+!URxvt*color9:               #FF0000 // red
+!URxvt*color10:              #00FF00 // green
+!URxvt*color11:              #FFFF00 // yellow
+!URxvt*color12:              #6464FF // blue
+!URxvt*color13:              #FF00FF // magenta
+!URxvt*color14:              #00FFFF // cyan
+!URxvt*color15:              #FFFFFF // white
+URxvt*borderColor:          red
+URxvt*saveLines:            10000
+URxvt*termName:             rxvt-unicode
+URxvt*perl-ext-common:      tabbed
+URxvt*secondaryScroll:      true
+URxvt*secondaryScreen:      true

@@ -1,0 +1,27 @@
+. /etc/ksh.kshrc
+export PS1='$PWD $ '
+# export PS1="\n\w \\$ " THIS ONE IS NICER, BUT THE ONE ABOVE IS NEEDED FOR SH(1) (THIS ONE DOES NOT WORK WITH SH(1))
+# export PS1="\u@\h \w \\$ "  #see FAQ 10.18
+# export PS1="`whoami`@`hostname -s` `pwd` |$ " GOOD ONE WITHOUT THE SHELL CHARACTER NONSENSE
+alias reboot="doas reboot"
+alias end="doas halt -p"
+alias updatedb="doas /usr/libexec/locate.updatedb"
+alias readpflog="doas tcpdump -n -e -tttt -r /var/log/pflog"
+alias linksg="links -g &"
+alias ll="ls -la | less"
+alias ls="ls -F"
+# alias ls="ls -i"
+alias mmount="doas mount -t msdos /dev/sd1i /mnt/flash"
+alias uumount="doas umount -f /dev/sd1i"
+alias snapshot.dl="ftp -ia ftp://ftp3.usa.openbsd.org/pub/OpenBSD/snapshots/amd64/{index.txt,SHA256.sig,*tgz,bsd*,INS*}"
+# alias ssignify="signify -C -p /etc/signify/openbsd-58-base.pub -x SHA256.sig bsd.rd"
+alias ssignify="signify -C -p /etc/signify/openbsd-59-base.pub -x SHA256.sig"
+alias py3="/usr/local/bin/python3.4"
+alias rrsync="rsync -rluvPt"
+alias mmmount="flash mount -t msdos /dev/sd2i /mnt/flash2"
+alias uuumount="flash umount -f /dev/sd2i"
+alias ssleep="doas apm -z"
+alias llp="lp -d HP_LaserJet_4050_Series"
+alias z="mcedit -b"
+alias mc="mc -b"
+alias edit="mcedit"
