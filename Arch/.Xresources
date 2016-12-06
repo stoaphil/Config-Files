@@ -1,0 +1,24 @@
+URxvt*background:           black
+URxvt*foreground:           green
+URxvt*scrollBar_right:      true
+URxvt*scrollstyle:          next
+URxvt*thickness:            15
+URxvt*cursorColor:	    	orange
+URxvt*cursorUnderline:      true
+URxvt*cursorBlink:          true
+
+!URxvt.font:                xft:terminus:size=10
+!URxvt.boldFont:            xft:terminus:size=10
+
+URxvt.font:                 xft:monospace:size=10:antialias=true
+URxvt.boldFont:             xft:monospace:size=10:antialias=true
+
+!URxvt.font:				xft:bitstream vera sans mono:size=10:antialias=true
+!URxvt.boldFont:			xft:bitstream vera sans mono:size=10:antialias=true
+
+URxvt*borderColor:          blue
+URxvt*saveLines:            20000
+URxvt*termName:             rxvt-unicode
+URxvt*perl-ext-common:      tabbed
+URxvt*secondaryScroll:      true
+URxvt*secondaryScreen:      true
