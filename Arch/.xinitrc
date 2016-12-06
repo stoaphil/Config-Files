@@ -1,0 +1,25 @@
+# Archlinux-specific
+
+# Screen configuration for 3500
+xrandr --output DVI-I-1 --mode 1280x1024 --pos 0x0 --rotate normal --output DVI-I-2 --mode 1920x1080 --pos 1280x0 --rotate normal
+
+# Merge .Xresources on startup
+xrdb -merge .Xresources
+
+# From kde wiki, make kde apps look good when using non-kde window mgr.
+XDG_CURRENT_DESKTOP=KDE
+export XDG_CURRENT_DESKTOP
+
+# Turn off console screen blanking
+xset -dpms; xset s off
+
+# Unknown reason, but need to "load" .Xresources for xterm to read file,
+# then start kde
+# xrdb -load .Xresources && exec startkde
+
+# Start DWM with date, time, and load in dmenu
+while true; do
+   xsetroot -name "$( date +"%F %R" )"
+   sleep 1m
+done &
+exec dwm

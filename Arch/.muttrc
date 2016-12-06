@@ -1,0 +1,105 @@
+# IMAP
+set folder      = imaps://imap.gmx.com
+set imap_user   = stoa@gmx.us
+set imap_pass   = !!summer2013$$
+set spoolfile   = +Inbox
+mailboxes       = +Inbox
+
+
+# Sets where drafts and sent messages are stored:
+set postponed = +Drafts
+set record = +Sent
+
+
+
+# Store message headers locally to speed things up.
+# If hcache is a folder, Mutt will create sub cache folders for each
+# account which may speeds things even more up.
+set header_cache = ~/.cache/mutt
+
+# Store messages locally to speed things up, like searching message
+# bodies.
+# Can be the same folder as header_cache.
+# This will cost important disk usage according to your e-mail amount.
+set message_cachedir = ~/.cache/mutt
+
+# Specify where to save and/or look for postponed messages.
+# set postponed = +[Gmail]/Drafts
+
+# Allow Mutt to open new imap connection automatically.
+unset imap_passive
+
+# Keep IMAP connection alive by polling intermittently (time in seconds).
+set imap_keepalive = 10
+
+# How often to check for new mail (time in seconds).
+# set mail_check = 120
+
+# To receive "New mail in..." notifications without needing to key press
+# Works to query mail server and works, unlike mail_check, which doesn't
+set timeout = 120
+
+# Reformat index screen (time/date only change from default):
+set index_format = "%4C %Z %D %-15.15L (%?l?%4l&%4c?) %s"
+
+# SMTP
+set my_pass=
+set my_user=dutch
+
+set realname = 'Dutch Ingraham'
+set from = stoa@gmx.us
+set use_from = yes
+
+set smtp_url = smtps://stoa@gmx.us@mail.gmx.com:465/
+set ssl_force_tls = yes
+
+color normal      white          black
+color hdrdefault  green          default
+color quoted      green          default
+color quoted1     yellow         default
+color quoted2     red            default
+color signature   cyan           default
+color indicator   brightyellow   red
+color error       brightred      default
+color status      brightwhite    blue
+color tree        brightmagenta  black
+color tilde       blue           default
+color attachment  brightyellow   default
+color markers     brightred      default
+color message     white          black
+color search      brightwhite    magenta
+color bold        brightyellow   default
+
+# As of v.1.7.0, sidebar now integrated, not a patch:
+# set sidebar_visible = yes
+#
+# Set mailboxes, two ways:
+# set imap_check_subscribed
+# mailboxes =INBOX =OUTBOX =Saved =Sent =Junk =Trash =Drafts =Spam
+#
+# Order the sidebar folders (not needed at this time):
+# set sidebar_sort_method = alpha
+#
+# Keystrokes for sidebar:
+# ctrl-n for next, ctrl-p for previous, ctrl-o to open selection:
+# bind index,pager \CP sidebar-prev
+# bind index,pager \CN sidebar-next
+# bind index,pager \CO sidebar-open
+#
+# Set sidebar width, in character widths:
+# set sidebar_width = 16
+#
+# Add some color to sidebar folders:
+# color sidebar_new yellow default
+
+# Format the sidebar looks (older and number of new messages):
+# set mail_check_stats = yes
+# set mail_check_stats_interval = 180 #seconds
+# set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+
+set editor = /usr/bin/vim
+set pager_index_lines = 10
+set sort = threads
+set pager_stop = yes
+set askcc = yes
+set askbcc = yes
