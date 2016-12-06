@@ -1,0 +1,43 @@
+color normal light yellow
+color idle green
+color bottom green
+color lnum gray
+color showmode gray
+color ruler gray
+color selection boxed magenta
+color hlsearch boxed white
+color hlobject boxed white
+color spell boxed white
+color fold yellow
+color header white
+color comment gray
+color string light blue
+color char light blue
+color regexp like string
+color regsub like string
+color number light white
+color other light red
+color keyword light magenta
+color function cyan
+color variable green
+color prep light magenta
+color prepquote light blue
+color doc white
+color docmarkup white
+color docindent white
+color kindt like keyword
+color libt like keyword
+color specialkey yellow
+color nontext yellow
+color extends yellow
+color hexheading red
+color hexoffset red
+color hexcursor red
+set textwidth=72
+set	ruler
+set	autoindent
+set	shiftwidth=4
+set	showmatch
+set	showmode
+set	tabstop=4
+set	verbose
