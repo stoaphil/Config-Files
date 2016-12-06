@@ -1,0 +1,15 @@
+! Each change to this file needs to be reloaded with:
+! <xrdb -merge ~/.Xresources, then close and reopen xterm
+
+! Do not use loginshell command
+
+xterm*faceName:         Dejavu Sans Mono Book
+xterm*faceSize:         10
+xterm*reverseVideo:     on
+xterm*cursorColor:      orange
+xterm*cursorBlink:      true
+xterm*cursorUnderLine:  true
+xterm*saveLines:        10000
+xterm*ScrollBar:        true
+xterm*rightScrollBar:   true
+xterm*termName:         xterm-256color

@@ -1,0 +1,17 @@
+! Each change needs to be reloaded with
+! <xrdb -merge ~/.Xresources, then restart
+
+! Do not use login shell command, as that
+! is causing (the) problems with lock-up
+! when issuing "reload" alias
+
+xterm*faceName:			DejaVu Sans Mono Book
+xterm*faceSize: 		11
+xterm*reverseVideo: 	on	
+xterm*cursorColor: 		orange
+xterm*cursorBlink: 		true
+xterm*cursorUnderLine: 		true
+xterm*saveLines: 		10000
+xterm*scrollBar: 		true
+xterm*rightScrollBar: 		true
+xterm*termName:			xterm-256color

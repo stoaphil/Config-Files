@@ -1,0 +1,73 @@
+# $FreeBSD: releng/10.1/share/skel/dot.shrc 222932 2011-06-10 13:47:11Z jilles $
+#
+# .shrc - bourne shell startup file 
+#
+# This file will be used if the shell is invoked for interactive use and
+# the environment variable ENV is set to this file.
+#
+# see also sh(1), environ(7).
+#
+
+
+# file permissions: rwxr-xr-x
+#
+umask	022
+
+# Enable the builtin emacs(1) command line editor in sh(1),
+# e.g. C-a -> beginning-of-line.
+# set -o emacs
+
+# Uncomment this and comment the above to enable the builtin vi(1) command
+# line editor in sh(1), e.g. ESC to go into visual mode.
+# set -o vi
+
+
+# some useful aliases
+alias h='fc -l'
+alias j=jobs
+alias m=$PAGER
+# alias ll='ls -laFo'
+alias l='ls -l'
+alias g='egrep -i'
+
+###     mine     ###
+
+alias ll="ls -la | less"
+alias end="sudo shutdown -p now"
+alias reboot="sudo shutdown -h now"
+alias ssleep="sudo acpiconf -s 3"
+alias updatedb="sudo /usr/libexec/locate.updatedb"
+alias uupdate="sudo svn update /usr/ports && sudo portmaster -a"
+alias mmount="sudo mount_msdosfs /dev/da0s1 /media/usb"
+alias uumount="sudo umount -f /dev/da0s1"
+alias readpflog="sudo tcpdump -n -e -tttt -r /var/log/pflog"
+
+####################
+ 
+# # be paranoid
+# alias cp='cp -ip'
+# alias mv='mv -i'
+# alias rm='rm -i'
+
+
+# # set prompt: ``username@hostname$ '' 
+# PS1="`whoami`@`hostname | sed 's/\..*//'`"
+# PS1="${PWD} "
+# PS1="sudo `pwd`"
+#
+# This next one is wierd; to get the colors, need to use the carat and
+# two brackets, however, the carat and first bracket can only be
+# generated in vi like so: type ctrl+v, then esc; after that, type
+# second bracket as normal.  Then add the ANSI color code of choice.
+# For lots of useful promptstring info, see 
+# http://www.understudy.net/custom.html.  The first set sets all red
+# after; the second returns to normal (so prompt is red but all output
+# is as otherwise set. 
+PS1="[31m\w[0m "
+case `id -u` in
+	0) PS1="${PS1}# ";;
+ 	*) PS1="${PS1}$ ";;
+esac
+
+# search path for cd(1)
+# CDPATH=:$HOME
